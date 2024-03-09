@@ -1,6 +1,7 @@
 pipeline {
   // This line specifies that any agent can be used to run the pipeline. 
   agent any
+  stages{
 
   // This defines a stage called "Build".
   stage('Build') {
@@ -52,5 +53,6 @@ pipeline {
       // This line sets an error message to be displayed if the pipeline fails.
       error 'Pipeline Failed'
     }
+  }
   }
 }
