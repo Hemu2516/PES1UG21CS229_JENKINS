@@ -45,6 +45,7 @@ pipeline {
         echo "Deployment Success"
       }
     }
+  }
 
   // This post block defines actions to be performed after the pipeline execution completes.
     post {
@@ -55,4 +56,3 @@ pipeline {
       }
     }
   }
-}
