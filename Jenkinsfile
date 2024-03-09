@@ -9,7 +9,7 @@ pipeline {
       steps {
       // This line prints a message to the console indicating that the build stage has begun.
         echo "This is Build stage."
-        build 'PES1UG21CS229-1'
+        build 'non-existent-job'
 
       // This line compiles a C++ source file named "hello.cpp" located in the "main" directory, placing the output executable in a file named "output".
         sh 'g++ ./main/hello.cpp -o output'
